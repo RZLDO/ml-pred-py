@@ -1,0 +1,30 @@
+# Core
+Flask==2.3.3
+Werkzeug==2.3.7
+click==8.1.7
+Jinja2==3.1.2
+itsdangerous==2.1.2
+blinker==1.6.2
+
+# ML & Data
+numpy==1.24.4                 # ✅ compatible w/ scipy & sklearn below
+pandas==1.5.3                 # ✅ compatible w/ numpy 1.24
+scikit-learn==1.2.2           # ✅ stable, no build needed
+imbalanced-learn==0.10.1      # ✅ compatible with sklearn 1.2.x
+scipy==1.10.1                 # ✅ compatible with numpy 1.24
+joblib==1.2.0
+threadpoolctl==3.1.0
+typing_extensions==4.7.1
+
+# DB
+mysql-connector-python==8.0.33
+PyMySQL==1.0.3
+SQLAlchemy==1.4.49           
+
+# Time
+pytz==2023.3
+tzdata==2023.3
+python-dateutil==2.8.2
+
+# Utility
+six==1.16.0
